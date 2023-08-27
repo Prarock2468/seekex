@@ -1,0 +1,367 @@
+.App {
+  text-align: center;
+}
+::placeholder,input#dob {
+  font-size: 13px;
+    font-weight: 500;
+}
+
+::-webkit-input-placeholder {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+::-moz-placeholder {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+:-ms-input-placeholder {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+::-ms-input-placeholder {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+.nav.custome {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.beard-crumb {
+  padding: 30px 0;
+  background: var(--bg-dark);
+}
+
+h1.hero-title {
+  font-size: 45px;
+  line-height: 52px;
+  color: var(--Lightgray-color) !important;
+}
+
+.beard-crumb-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  gap: 6px;
+  list-style: none;
+  margin-top: 9px;
+}
+
+.beard-crumb-ul a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+span.current-page {
+  color: var(--sky-color) !important;
+  font-weight: 600;
+}
+
+.beard-crumb-ul a,
+.beard-crumb-ul span {
+  font-size: 17px;
+  color: var(--Lightgray-color);
+}
+
+h2.brand-name {
+  color: var(--bg-dark) !IMPORTANT;
+}
+
+a.nav-brand {
+  text-decoration: none;
+
+}
+
+.common-btn {
+  position: relative;
+  display: block;
+  padding: 7px 19px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 23px;
+  transition: .3s all;
+  cursor: pointer;
+  z-index: 0;
+  overflow: hidden;
+  outline: none;
+  border:0;
+}
+
+.add-btn {
+  color: var(--bg-dark);
+  background: var(--yellow);
+}
+
+.add-btn:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: var(--sky-color);
+  z-index: -1;
+  transition: .3s ease-in-out;
+}
+
+.beard-crumb-ul a .prev-page {
+  font-size: 27px;
+  height: 27px;
+  display: flex;
+  line-height: 27px;
+}
+
+.common-btn:hover:after {
+  width: 100%;
+}
+
+a.nav-brand {
+  display: flex;
+}
+/* person card css */
+.personList-section {
+  padding: 0 0 65px 0;
+  position: relative;
+}
+
+.personList-section:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:230px;
+  width: 100%;
+  background: var(--bg-dark);
+  z-index: -1;
+}
+
+.person-card {
+  max-width: 300px !important;
+  background: #fff;
+  padding: 30px 30px 24px 30px !important;
+  border-radius: 10px;
+  box-shadow: 0px 20px 39px -20px #2f2f2f2f;
+  transition: .3s all;
+  cursor: pointer;
+}
+.Dc-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2px;
+  margin: 10px 0;
+}
+p.description {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 600;
+  color: var(--bg-dark);
+  transition: .3s all;
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+.dataList {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  color: var(--bg-dark);
+}
+h5.dob {
+  display: flex;
+  font-size: 16px;
+}
+.action-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row.personList-row {
+  justify-content: center;
+  gap: 16px;
+}
+
+.edit-btn {
+  color: var(--Lightgray-color);
+  background: var(
+  --bg-dark);
+  padding: 4px 17px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.delete-btn {
+  color: var(--bg-dark);
+  background: var(--yellow);
+  padding: 4px 17px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.person-image {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius:50%;
+}
+
+.person-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.person-name a {
+  font-size: 25px;
+  font-family: 'ADLaM Display';
+  color: var(--bg-dark);
+}
+
+.person-detail {
+  text-align: left;
+  padding: 20px 0;
+  transition: .3s all;
+}
+.person-name a,.person-detail p{
+  transition: .3s all;
+}
+ 
+.person-card:hover .person-name a,.person-card:hover .dataList .fa{
+  color: #5060F7;
+}
+.error-input,.error-message {
+  border-color: red !important;
+  color: red;
+}
+
+.error-message {
+  font-size: 12px;
+  font-weight: 500;
+}
+/* person card css end */
+
+
+/* add person page css */
+.add-person-section {
+  padding: 32px;
+  background: #fff;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0px 20px 39px -20px #2f2f2f2f;
+  position: relative;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bg-dark);
+  margin-bottom: 4px;
+}
+
+.form-group input,.form-group textarea {
+  border: 1px solid #c1c1c1;
+  height: 42px;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.btn-box {
+  margin-top: 30px;
+}
+.form-icon {
+    height: 65px;
+    width: 65px;
+    background: var(--yellow);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -33px;
+    top: 30px;
+}
+.display-image {
+  height: 130px;
+  width: 130px;
+  border: 1px solid #c1c1c1;
+  border-radius: 50%;
+  position: relative;
+      margin: auto;
+}
+textarea.form-control {
+  height: 100px;
+  padding: 15px;
+}
+.display-image input#img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  opacity: 0;
+  position: relative;
+  z-index: 2;
+}
+.display-image .showImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 0;
+}
+.nodata-section {
+  background: #fff;
+  padding: 45px;
+  border-radius: 12px;
+  box-shadow: 2px 5px 7px #2f2f2f2f;
+  text-align: center;
+}
+.nodata-section a.add-btn.common-btn {max-width: 163px;margin: auto !important;}
+.nodata-section h2 {
+  font-size: 35px;
+  margin: 20px 0 6px !important;
+  color: var(--bg-dark);
+  font-weight: 700;
+  font-family: 'ADLaM Display';
+}
+.nodata-section p {
+  font-size: 20px;
+  color: var(--bg-dark);
+  font-weight: 500;
+  margin: 0 0 15px 0 !important;
+}
+.single-person-card {
+  background: #fff;
+  padding: 45px;
+  border-radius: 12px;
+  box-shadow: 2px 5px 7px #2f2f2f2f;
+  text-align: center;
+}
+.single-person-card p.description{
+  display: block;
+  -webkit-line-clamp: inherit;
+  line-clamp: inherit;
+  -webkit-box-orient: inherit;
+}
+.single-person-card .Dc-box {
+  flex-direction: revert;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.single-person-card .Dc-box .dataList {
+  flex: 1 0 153px;
+}
+/* add person page css end */
