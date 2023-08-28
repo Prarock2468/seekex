@@ -49,16 +49,28 @@
       "id": 5
     },
     {
-      "name": "pradeep",
-      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHkAwgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQEGB//EADoQAAICAQIEAwQIBAYDAAAAAAECAAMRBCEFEjFBE1FhBhQicTJCUoGSocHhcpGT0RUWI2KC8SRDc//EABkBAAMBAQEAAAAAAAAAAAAAAAECAwAEBf/EACYRAAICAgEFAAMAAwEAAAAAAAABAgMREiEEEzFBURQiUjJCYSP/2gAMAwEAAhEDEQA/APkBS2v4WG0vSORskZBG4MZNtOoG61of9uQPzirEoxIBK+RlkXlFReU8ha6ay2Hbl8oYlAMEsOw5osjjl3C/ImGVmdNwPnM0NGSSLe6paDycvzEVah6icMCPQ5jdK2jes8rDtLPYznFyr8+WBJhlGLWfDFKhghxgkGFUV8x59lJ6gThUGw8g2l6qmdwuI4kU/CLXBSjKuyj6OT1iDKeY7bGatwfT5UgMOhECVV1OSAcdIEhrIZf/AE7XpzbpvEH0kIBHp2MAXaxuQjYbQoexMBcjbB9RD16Vq6vHIyAc4mNrt4K6Rcgq2wO0o1YqcHGV3BxHdClVmprU/Q35pzV1Ac3JjA8u/wAvSD2W7ea8mXtz7dDCOMoGnbKSOVgMefpLLgIQe/SMc6XpiTDc5hKRnOeghtRXymDr2QmMiTjhlGGDtKONxCqOYn0lWhFBBeZ/SFYYUKsvSEBzZ0ktZWbCDC56TAxwX0VShi5IyJTWWm5i3mxMmWQqozuM/LM61ROFH/UVoqm3HVC/hiSE92b7Y/nJFyDV/AZQr",
-      "email": "dsdsd234@gmail.com",
-      "phone": "9935990925",
-      "dob": "2001-12-12",
-      "about": "sasas",
-      "description": "asasas",
+      "name": "test",
+      "image": "",
+      "email": "balchandra2468324@gmail.com",
+      "phone": "9935990933",
+      "dob": "2023-08-14",
+      "about": "sfasd",
+      "description": "asdas",
       "country": "India",
-      "education": "xzxzxzx",
+      "education": "BTECH",
       "id": 6
+    },
+    {
+      "name": "naveen",
+      "email": "balchandra4442468@gmail.com",
+      "phone": "9935993325",
+      "dob": "2023-07-30",
+      "about": "test",
+      "description": "test",
+      "country": "India",
+      "education": "BTECH",
+      "image": "logo.png",
+      "id": 7
     }
   ]
 }

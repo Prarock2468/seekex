@@ -57,6 +57,10 @@ const Create = () => {
         },
     });
 
+    const fileHandledChange = (e)=>{
+        console.log(e.target.files[0].name)
+    }
+
     return (
         <>
             <div className='beard-crumb'>
